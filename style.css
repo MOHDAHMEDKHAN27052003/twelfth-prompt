@@ -91,6 +91,11 @@ form #mail-input{
     margin-top: 8px;
     margin-bottom: 33px;
     width: 400px;
+    transition: width 1s;
+}
+
+#mail-input:hover{
+    width: 450px;
 }
 
 form .choice{
